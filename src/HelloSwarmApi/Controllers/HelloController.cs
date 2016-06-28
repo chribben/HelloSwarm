@@ -11,7 +11,7 @@ namespace HelloMvcApi
         [HttpGet]
         public IActionResult Get()
         {
-            return new OkObjectResult("Hello brave new Docker!");
+            return new OkObjectResult("Hello brave new Docker version 2!");
         }
     }
 }
